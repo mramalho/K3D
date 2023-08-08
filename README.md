@@ -23,13 +23,15 @@ nodes:
 
 ```
 Para subir um cluster com o arquivo criado acima utilize os comandos:
+```
 kind create cluster --name NOME_DO_CLUSTER --config cluster.yaml
+```
 
 Sera criado um control-plane e dois works neste exemplo.
 
 Podemos adicionar um metrics-server no control-plane conforme o comando abaixo via helm:
-
+```
 helm repo add metrics-server https://kubernetes-sigs.github.io/metrics-server/
 helm repo update
 helm upgrade --install --set args={--kubelet-insecure-tls} metrics-server metrics-server/metrics-server --namespace kube-system
-
+```
