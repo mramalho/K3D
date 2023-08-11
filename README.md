@@ -1,7 +1,7 @@
 # KIND
 Criando cluster simples para estudos
 
-Primeiro, visite o site que hospeda o K3D, para novidades e atualizações
+Primeiro, visite o site que hospeda o KIND, para novidades e atualizações
 https://kind.sigs.k8s.io/docs/user/quick-start/
 
 A instalação pode ser seguida no link abaixo:
