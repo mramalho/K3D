@@ -23,7 +23,7 @@ nodes:
 
 ```
 
-PrOutras versões podem de imagens, podem ser obtidas no repositório abaixo:
+Outras versões podem de imagens, podem ser obtidas no repositório:
 https://github.com/kubernetes-sigs/kind/releases
 
 Para subir um cluster com o arquivo criado acima utilize os comandos:
