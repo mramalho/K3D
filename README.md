@@ -22,6 +22,9 @@ nodes:
   image: kindest/node:v1.24.12@sha256:1e12918b8bc3d4253bc08f640a231bb0d3b2c5a9b28aa3f2ca1aee93e1e8db16
 
 ```
+Outras versões de imagens podem ser obtidas no repositório abaixo
+https://github.com/kubernetes-sigs/kind/releases
+
 Para subir um cluster com o arquivo criado acima utilize os comandos:
 ```
 kind create cluster --name NOME_DO_CLUSTER --config cluster.yaml
