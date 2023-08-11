@@ -31,7 +31,7 @@ Para subir um cluster com o arquivo criado acima utilize os comandos:
 kind create cluster --name NOME_DO_CLUSTER --config cluster.yaml
 ```
 
-Sera criado um control-plane e dois works neste exemplo.
+Será criado um control-plane e dois works neste exemplo.
 
 Podemos adicionar um metrics-server no control-plane conforme o comando abaixo via helm:
 ```
