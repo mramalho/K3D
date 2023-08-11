@@ -1,13 +1,13 @@
-# K3D
+# KIND
 Criando cluster simples para estudos
 
 Primeiro, visite o site que hospeda o K3D, para novidades e atualizações
-https://k3d.io
+https://kind.sigs.k8s.io/docs/user/quick-start/
 
 A instalação pode ser seguida no link abaixo:
-https://k3d.io/v5.5.2/#installation
+https://kind.sigs.k8s.io/docs/user/quick-start/#installation
 
-Depois aque o K3D estiver instalado, a configuração do arquivo YAML abaixo, irá criar um cluster com 3 nós, na versão do kubernetes 1.24.
+Depois aque o KIND estiver instalado, a configuração do arquivo YAML abaixo, irá criar um cluster com 3 nós, na versão do kubernetes 1.24.
 
 ```yaml
 # cluster.yaml
